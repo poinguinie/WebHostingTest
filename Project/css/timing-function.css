@@ -1,0 +1,30 @@
+#ex div{
+	float:left;
+	width:100px;
+	height:20px;
+	margin:5px;
+	color:white;
+	background-color:#006aff;
+	border-radius:5px;
+	text-align:center;
+	font-weight:bold;
+}
+#ex:hover div {
+	height:100px;
+}
+#ex .linear{
+	transition: 5s linear;
+}
+#ex .ease{
+	transition: 5s ease;
+}
+#ex .ease-in{
+	transition: 5s ease-in;
+}
+#ex .ease-out{
+	transition: 5s ease-out;
+}
+#ex .delay{
+	transition: 4s;
+	transition-delay:1s;
+}

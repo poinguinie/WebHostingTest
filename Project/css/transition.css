@@ -1,0 +1,29 @@
+.container_1 {
+	border:1px solid black;				
+	perspective:150px;
+	margin-top:50px;
+	margin-left:50px;
+	margin-bottom:20px;
+	float:left;
+	width:100px;
+	height:100px;
+}
+.box1 {
+	background:#82cbd8;
+	transform: rotateY(45deg);
+	width:100px;
+	height:100px;
+}
+.box2 {
+	background:#0d6097;
+	transform-origin: left top;
+	transform: rotateX(45deg);
+	width:100px;
+	height:100px;
+}
+#tr-style1 {
+	transform-style:flat;
+}
+#tr-style2 {
+	transform-style:preserve-3d;
+}

@@ -1,0 +1,32 @@
+.loginForm {
+	position:relative;
+	left:5px;
+	right:10px;
+	float:left;
+	text-justify:"inter-word";
+}
+.loginForm [class=loginBox]:hover,.loginForm [class=loginBox]:focus  {
+	border-color: rgba(140,20,75,0.4);
+}
+.loginForm [name="submit"]:hover {
+	transform: rotateX(50deg);
+	transform: perspective(150px);
+}
+.orderInf {
+	position:relative;
+	right:10px;
+	left:10px;
+}
+.legendClass {
+	color:#587;
+}
+.clock {
+	color:#05d;
+	font-weight:bold;
+	font-size:20px;
+}
+.send {
+	color:#c26;
+	font-weight:600;
+	font-size:1.3em;
+}

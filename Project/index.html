@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>
+			My Stylist
+		</title>
+		<link rel="stylesheet" href="css\songs.css">
+		<link rel="stylesheet" href="css\timing-function.css">
+		<link rel="stylesheet" href="css\transition.css">
+		<link rel="stylesheet" href="css\buttons.css">
+		<link rel="stylesheet" href="css\loginForm.css">
+		<link rel="stylesheet" href="css\animation.css">
+		<script type="text/javascript" src="js\style.js"></script>
+		<script type="text/javascript" src="js\prefixfree.min.js"></script>
+		<script type="text/javascript" src="js\jquery.js"></script>
+	</head>
+	<body id="theBody">
+		<div class="buttons">
+			<fieldset>
+				<legend class="legendClass">버튼 및 링크</legend>
+				<input type="button" value="submit" id="buttonId" onclick="backgroundColor()">
+				<input type="button" value="reset" id="resetId" onclick="resetColor()">
+				<a href="https://www.naver.com" id="naverLink">네이버</a>
+			</fieldset>
+		</div>
+		<div class="loginForm" name="loginField">
+			<fieldset class="loginBox">
+				<legend class="legendClass">로그인</legend>
+				<ul>
+					<ol>
+						<label for="ID">아이디</label>
+						<input type="text" alt="아이디" name="idInput" id="ID">
+					</ol>
+					<ol>
+						<label for="PW">비밀번호</label>
+						<input type="password" alt="비밀번호" name="pwInput" id="PW">
+					</ol>
+					<ol>
+						<input type="button" value="제출" name="submit" onclick="loginButton()">
+					</ol>
+				</ul>
+			</fieldset>
+		</div>
+		<div class="orderInf">
+			<fieldset>
+				<legend class="legendClass">
+					주문 정보
+				</legend>
+				<div class="inf_1">
+				<h2>확인하세요</h2>
+					<h3>주문 및 배송</h3>
+					<p>오후 <span class="clock">2시</span> 이전 주문건은 <span class="send">당일 발송</span>합니다.<br>
+					<span class="clock">2시</span> 이후 주문건은 <span class="send">다음날</span> 발송합니다.</p>
+				</div>
+			</fieldset>
+		</div>
+		<div class="songs">
+			<fieldset>
+				<legend class="legendClass">
+					노래 모음
+				</legend>
+				<ul class="listCss">
+					<li><a href="https://www.youtube.com/watch?v=bRBn5EY505E" 
+						   target="_blank" id="child">그때 그 아인</a></li>
+					<li><a href="https://www.youtube.com/watch?v=hWYM5QEt0Fg" 
+						   target="_blank" id="start">시작</a></li>
+					<li><a href="https://www.youtube.com/watch?v=mRmx5iO3AK4" 
+						   target="_blank" id="say">say</a></li>
+					<li><a href="https://www.youtube.com/watch?v=DVQOazBqfEU" 
+						   target="_blank" id="day">지친 하루</a></li>
+					<li><a href="https://www.youtube.com/watch?v=VvLNz352f7Q" 
+						   target="_blank" id="road">오르막길</a></li>
+					<li><a href="https://www.youtube.com/watch?v=4GW7xwZkDsY" 
+						   target="_blank" id="me">그게 나야</a></li>
+				</ul>
+			</fieldset>
+		</div>
+		<div id="transeform_style">
+			<div class="container_1">
+				<div class="box1" id="tr-style1">
+					<div class="box2"></div>
+				</div>
+			</div>
+			<div class="container_1">
+				<div class="box1" id="tr-style2">
+					<div class="box2"></div>
+				</div>
+			</div>
+		</div>
+		<div id="ex">
+			<div class="linear">linear</div>
+			<div class="ease">ease</div>
+			<div class="ease-in">ease-in</div>
+			<div class="ease-out">ease-out</div>
+			<div class="delay">delay</div>
+		</div>
+		<div class="animation"></div>
+	</body>
+</html>

@@ -1,0 +1,37 @@
+.songs {
+	clear:both;
+}
+.listCss{
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+	clear:left;
+}
+.listCss li:first-child {
+	border-top-left-radius: 1em;
+	border-bottom-left-radius: 1em;
+}
+.listCss li:last-child {
+	border-top-right-radius: 1em;
+	border-bottom-right-radius: 1em;
+}
+.listCss li{
+	box-sizing:border-box;
+	border-spacing:0px;
+	border:double;
+	border-width:thin;
+	float:left;
+	display:inline-block; 
+	padding:5px;
+	text-align:center;
+}
+.listCss a:link, .listCss a:visited {
+	text-decoration:none;
+	color:black;
+}
+h2 {
+	color:rgba(0,160,190,0.3);
+}
+
+
+
